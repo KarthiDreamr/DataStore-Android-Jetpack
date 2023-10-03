@@ -25,7 +25,7 @@ fun Dashboard(navController: NavController, viewModel: MainViewModel) {
         modifier = Modifier
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(10.dp)
+        verticalArrangement = Arrangement.Center
     ) {
         result.let { studentDetail ->
             Text("Hi, ${studentDetail.name} !")
@@ -36,7 +36,7 @@ fun Dashboard(navController: NavController, viewModel: MainViewModel) {
 
         Button(
             onClick = {
-                navController.navigate("login_screen")
+                navController.navigate("form_page")
                 viewModel.loggedIn = false
             }
         ) {

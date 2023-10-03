@@ -65,7 +65,7 @@ fun FormPage(navController: NavController, viewModel: MainViewModel) {
                     CoroutineScope(Dispatchers.IO).launch {
                         detailStorage.saveInfo(name, age)
                         withContext(Dispatchers.Main) {
-                            navController.navigate("home_screen")
+                            navController.navigate("dashboard")
                             viewModel.loggedIn = true
                         }
                     }
