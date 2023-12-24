@@ -17,7 +17,7 @@ Welcome to the repository for the DataStore Android application built using Jetp
 
 ## Screenshots 📸
 
-*Coming soon...*
+<img src="assets/screen1.png" width="200"/> <img src="assets/screen2.png" width="200"/> 
 
 ## How to run 🏃‍♂️
 
